@@ -1,0 +1,21 @@
+version: '3.1'
+
+services:
+  production-nginx-container:
+    container_name: 'production-nginx-container'
+    image: nginx:latest
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./production.conf:/etc/nginx/conf.d/default.conf
+      - ./production-site/jonestroy/build/:/etc/nginx/html/ #/usr/share/nginx/html/index.html
+      - ./dh-param/dhparam-2048.pem:/etc/ssl/certs/dhparam-2048.pem
+      - /docker-volumes/etc/letsencrypt/live/jonestroy.com/fullchain.pem:/etc/letsencrypt/live/jonestroy.com/fullchain.pem
+      - /docker-volumes/etc/letsencrypt/live/jonestroy.com/privkey.pem:/etc/letsencrypt/live/jonestroy.com/privkey.pem
+    networks:
+      - docker-network
+
+networks:
+  docker-network:
+    driver: bridge
