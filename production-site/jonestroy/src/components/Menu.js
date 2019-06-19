@@ -31,9 +31,6 @@ class Menu extends Component {
                 ))}
             </div>
         );
-        // return this.props.menuItems.map((menuItem) => (
-        //     <MenuItem key={menuItem.id} menuItem={menuItem} />
-        // ))
     }
 }
 

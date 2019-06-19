@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import '../css/Home.css';
+import Header from './Header';
 import Menu from './Menu';
 
 class Home extends Component {
     render() {
         return (
-            <div>
+            <div className='mainContainer'>
+                <Header />
                 <Menu />
             </div>
         );

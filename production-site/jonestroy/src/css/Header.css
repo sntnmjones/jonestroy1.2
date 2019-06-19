@@ -4,7 +4,7 @@
     padding: 20px;
     position: fixed;
     width: 100%;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .link {
