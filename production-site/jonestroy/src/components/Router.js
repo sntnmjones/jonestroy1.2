@@ -6,6 +6,7 @@ function RouterRooter() {
     return (
         <Router>
             <Route exact path="/" component={Home} />
+            <Route path="/about" component={Home} />
         </Router>
     );
 }
