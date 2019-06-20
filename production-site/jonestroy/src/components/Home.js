@@ -5,9 +5,11 @@ import Menu from './Menu';
 class Home extends Component {
     render() {
         return (
-            <div className='mainContainer'>
+            <div>
                 <Header />
-                <Menu />
+                <div>
+                    <Menu />
+                </div>
             </div>
         );
     }
