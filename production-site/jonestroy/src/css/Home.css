@@ -1,3 +1,15 @@
-.mainContainer {
-    display: block;
+.mainDiv {
+    position:fixed;
+    width: 100%;
+}
+
+.secondDiv {
+    display: flex;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    overflow: scroll;
+    padding: 10px;
 }
