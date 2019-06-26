@@ -5,7 +5,7 @@ import '../css/Home.css'
 
 class Home extends Component {
 
-    text = "Testing";
+    story = 'After working in a sawmill for 14 years I decided to follow my interest in programming. Through my journey in college, I have learned alot about the software engineering process. From the importance of using git for version control and team collaboration, to the importance of the difference between O(n) and O(log n).'
 
     render() {
         return (
@@ -16,7 +16,19 @@ class Home extends Component {
 
                     {/* Content for Home.js */}
                     <div className='content'>
-                        <p>{this.text}</p>
+                        <h3 className='banner'>About Me</h3>
+                        <ul>
+                            <li>
+                                <h5>My story</h5>
+                                <li>
+                                    {this.story}
+                                </li>
+                            </li>
+                            <li>
+                                <h5>Relative Courses</h5>
+                                <li></li>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
