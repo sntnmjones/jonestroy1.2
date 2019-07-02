@@ -28,3 +28,8 @@ h5 {
 li li {
     padding: 0px 20px 20px 20px;
 }
+
+img {
+    max-width: 25%;
+    height: auto;
+}

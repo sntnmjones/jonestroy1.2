@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Menu from './Menu';
 import '../css/Home.css'
+import githubLogo from '../images/github.svg';
+import leetcodeLogo from '../images/leetcode.png';
+import linkedinLogo from '../images/linkedin.png';
 
 class Home extends Component {
 
@@ -23,6 +26,15 @@ class Home extends Component {
                                 <h5>My story</h5>
                                 <li>
                                     {this.story}
+                                </li>
+                            </li>
+                            <li>
+                                {/* Links */}
+                                <h5>Links</h5>
+                                <li>
+                                    <a href='https://github.com/sntnmjones'><img src={githubLogo} alt='github'/></a>
+                                    <a href='https://leetcode.com/sntnmjones/'><img src={leetcodeLogo}  alt='leetcode'/></a>
+                                    <a href='https://www.linkedin.com/in/jones-troy/'><img src={linkedinLogo} alt='linkedin' /></a>
                                 </li>
                             </li>
                         </ul>
