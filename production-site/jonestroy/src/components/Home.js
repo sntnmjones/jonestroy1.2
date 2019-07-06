@@ -5,6 +5,7 @@ import '../css/Home.css'
 import githubLogo from '../images/github.svg';
 import leetcodeLogo from '../images/leetcode.png';
 import linkedinLogo from '../images/linkedin.png';
+import ccent from '../images/ccent.gif';
 
 class Home extends Component {
 
@@ -26,6 +27,13 @@ class Home extends Component {
                                 <h5>My story</h5>
                                 <li>
                                     {this.story}
+                                </li>
+                            </li>
+                            <li>
+                                {/* Certs */}
+                                <h5>Certs</h5>
+                                <li>
+                                    <img src={ccent} alt='ccent' />
                                 </li>
                             </li>
                             <li>
