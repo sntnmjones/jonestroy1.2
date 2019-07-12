@@ -2,6 +2,7 @@
     background-color: #222;
     background-image: linear-gradient(#222, #555);
     padding: 20px;
+    position: fixed;
     /* position: fixed; (Causes z index overflow.)*/
     width: 100%;
 }

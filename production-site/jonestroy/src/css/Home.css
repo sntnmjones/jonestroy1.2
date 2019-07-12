@@ -1,10 +1,11 @@
 .mainDiv {
-    position:fixed;
+    /* position:fixed; */
     width: 100%;
 }
 
 .secondDiv {
     display: flex;
+    padding-top: 90px;
 }
 
 .content {
