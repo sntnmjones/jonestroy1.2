@@ -9,9 +9,14 @@
 
 .content {
     width: 100%;
-    height: calc(100vh - 85px);
+    height: 100vh;
+    /* height: calc(100vh - 85px); */
     padding-bottom: 50px;
     overflow: scroll;
+}
+
+.content div {
+    position: relative;
 }
 
 .banner {

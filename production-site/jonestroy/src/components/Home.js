@@ -20,32 +20,34 @@ class Home extends Component {
 
                     {/* Content for Home.js */}
                     <div className='content'>
-                        <h3 className='banner'>About Me</h3>
-                        <ul>
-                            <li>
-                                {/* Story */}
-                                <h5>My story</h5>
+                        <div>
+                            <h3 className='banner'>About Me</h3>
+                            <ul>
                                 <li>
-                                    {this.story}
+                                    {/* Story */}
+                                    <h5>My story</h5>
+                                    <li>
+                                        {this.story}
+                                    </li>
                                 </li>
-                            </li>
-                            <li>
-                                {/* Certs */}
-                                <h5>Certs</h5>
                                 <li>
-                                    <img src={ccent} alt='ccent' />
+                                    {/* Certs */}
+                                    <h5>Certs</h5>
+                                    <li>
+                                        <img src={ccent} alt='ccent' />
+                                    </li>
                                 </li>
-                            </li>
-                            <li>
-                                {/* Links */}
-                                <h5>Links</h5>
                                 <li>
-                                    <a href='https://github.com/sntnmjones'><img src={githubLogo} alt='github' /></a>
-                                    <a href='https://leetcode.com/sntnmjones/'><img src={leetcodeLogo} alt='leetcode' /></a>
-                                    <a href='https://www.linkedin.com/in/jones-troy/'><img src={linkedinLogo} alt='linkedin' /></a>
+                                    {/* Links */}
+                                    <h5>Links</h5>
+                                    <li>
+                                        <a href='https://github.com/sntnmjones'><img src={githubLogo} alt='github' /></a>
+                                        <a href='https://leetcode.com/sntnmjones/'><img src={leetcodeLogo} alt='leetcode' /></a>
+                                        <a href='https://www.linkedin.com/in/jones-troy/'><img src={linkedinLogo} alt='linkedin' /></a>
+                                    </li>
                                 </li>
-                            </li>
-                        </ul>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
