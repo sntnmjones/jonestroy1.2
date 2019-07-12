@@ -20,34 +20,32 @@ class Home extends Component {
 
                     {/* Content for Home.js */}
                     <div className='content'>
-                        <div>
-                            <h3 className='banner'>About Me</h3>
-                            <ul>
+                        <h3 className='banner'>About Me</h3>
+                        <ul>
+                            <li>
+                                {/* Story */}
+                                <h5>My story</h5>
                                 <li>
-                                    {/* Story */}
-                                    <h5>My story</h5>
-                                    <li>
-                                        {this.story}
-                                    </li>
+                                    {this.story}
                                 </li>
+                            </li>
+                            <li>
+                                {/* Certs */}
+                                <h5>Certs</h5>
                                 <li>
-                                    {/* Certs */}
-                                    <h5>Certs</h5>
-                                    <li>
-                                        <img src={ccent} alt='ccent' />
-                                    </li>
+                                    <img src={ccent} alt='ccent' />
                                 </li>
+                            </li>
+                            <li>
+                                {/* Links */}
+                                <h5>Links</h5>
                                 <li>
-                                    {/* Links */}
-                                    <h5>Links</h5>
-                                    <li>
-                                        <a href='https://github.com/sntnmjones'><img src={githubLogo} alt='github'/></a>
-                                        <a href='https://leetcode.com/sntnmjones/'><img src={leetcodeLogo}  alt='leetcode'/></a>
-                                        <a href='https://www.linkedin.com/in/jones-troy/'><img src={linkedinLogo} alt='linkedin' /></a>
-                                    </li>
+                                    <a href='https://github.com/sntnmjones'><img src={githubLogo} alt='github' /></a>
+                                    <a href='https://leetcode.com/sntnmjones/'><img src={leetcodeLogo} alt='leetcode' /></a>
+                                    <a href='https://www.linkedin.com/in/jones-troy/'><img src={linkedinLogo} alt='linkedin' /></a>
                                 </li>
-                            </ul>
-                        </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
