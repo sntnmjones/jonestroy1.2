@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Image, Jumbotron, Card } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 import '../css/Home.css';
 
 function Home() {
@@ -21,7 +21,7 @@ function Home() {
             {/* Interesting Items */}
             <Row className='row'>
 
-                {/* Bixby bridge */}
+                {/* Monterey */}
                 <Col md={12} lg={6}>
                     <Card className='cards'>
                         <Card.Img variant="bottom" src={require('../images/Monterey-1920x1080.jpg')} alt='bixby bridge' />
@@ -34,14 +34,14 @@ function Home() {
                     </Card>
                 </Col>
 
-                {/* Corkscrew */}
+                {/* Motorsports */}
                 <Col md={12} lg={6}>
                     <Card className='cards'>
                         <Card.Img variant="bottom" src={require('../images/corkscrew-1920x1080.jpg')} alt='race cars on the corkscrew' />
                         <Card.Body>
                             <Card.Title><a href='https://www.motorsport.com'>Motorsports</a></Card.Title>
                             <Card.Text>
-                                We LOVE racing. My dream would be to work on with a race team. We try to attend all our local venues that host IndyCar, MotoGP, etc.
+                                We LOVE racing. My dream would be to work on a race team. Having raced karts, we have a deep appreciation for motorsports. We try to attend all our local venues that host IndyCar, MotoGP, etc.
                         </Card.Text>
                         </Card.Body>
                     </Card>
