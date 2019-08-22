@@ -3,8 +3,8 @@ import Container from 'react-bootstrap/Container';
 
 function Projects() {
   return (
-    <Container>
-        Projects
+    <Container style={{backgroundColor: 'white'}}>
+        Coming soon!
     </Container>
   );
 }

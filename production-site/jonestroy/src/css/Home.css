@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+}
+
+.row {
+    padding: 0px 0px 0px 30px;
+}
+
+.images {
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    color: #6c757d;
+}
+
+.row {
+    width: 100%;
+}
+
+.cards {
+    margin: 10px 0px 0px 0px;
+}

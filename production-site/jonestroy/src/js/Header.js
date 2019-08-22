@@ -5,7 +5,7 @@ import { Navbar, Nav, } from 'react-bootstrap';
 function Header() {
 
     const css = {
-        marginBottom: '100px'
+        marginBottom: '58px'   // To make loaded components viewable.
     }
 
     return (
