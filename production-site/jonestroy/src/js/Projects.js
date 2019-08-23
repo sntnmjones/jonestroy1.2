@@ -17,6 +17,16 @@ function Projects() {
                             <Button href='https://github.com/sntnmjones/CSCI344-Web-Scraper/blob/master/lab9.py'>Go to Github page</Button>
                         </Card.Body>
                     </Card>
+
+                    <Card className='cards'>
+                        <Card.Body>
+                            <Card.Title>ReactJS Tutorial</Card.Title>
+                            <Card.Text>
+                                A TicTacToe Board tutorial through the react website.
+                            </Card.Text>
+                            <Button href='/projects/react-tut'>Go to React Tutorial</Button>
+                        </Card.Body>
+                    </Card>
                 </Col>
             </Row>
         </Container>
