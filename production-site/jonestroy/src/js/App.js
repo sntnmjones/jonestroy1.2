@@ -5,6 +5,7 @@ import About from "./About";
 import Projects from "./Projects";
 import Header from './Header';
 import ReactTut from './ReactTut';
+import MernTut from './MernTut';
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                 <Route exact path='/about' component={About} />
                 <Route exact path='/projects' component={Projects} />
                 <Route exact path='/projects/react-tut' component={ReactTut} />
+                <Route exact path='/projects/mern-tut' component={MernTut} />
             </Switch>
         </div>
     );

@@ -27,6 +27,16 @@ function Projects() {
                             <Button href='/projects/react-tut'>Go to React Tutorial</Button>
                         </Card.Body>
                     </Card>
+
+                    <Card className='cards'>
+                        <Card.Body>
+                            <Card.Title>MERN Tutorial</Card.Title>
+                            <Card.Text>
+                                A completed MERN stack tutorial.
+                            </Card.Text>
+                            <Button href='/projects/mern-tut'>Go to MERN Tutorial</Button>
+                        </Card.Body>
+                    </Card>
                 </Col>
             </Row>
         </Container>

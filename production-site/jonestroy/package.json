@@ -1,25 +1,30 @@
 {
-  "name": "jonestroy",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "bootstrap": "^4.3.1",
-    "create-react-app": "^3.0.1",
-    "react": "^16.8.6",
-    "react-bootstrap": "^1.0.0-beta.8",
-    "react-dom": "^16.8.6",
-    "react-icons": "^3.7.0",
-    "react-push-menu": "^1.0.2",
-    "react-router": "^5.0.0",
-    "react-router-dom": "^5.0.0",
-    "react-scripts": "^0.9.5",
-    "reactstrap": "^8.0.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "name": "jonestroy",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "axios": "^0.19.0",
+        "bootstrap": "^4.3.1",
+        "concurrently": "^4.1.2",
+        "create-react-app": "^3.0.1",
+        "dependencies": "0.0.1",
+        "express": "^4.17.1",
+        "react": "^16.8.6",
+        "react-bootstrap": "^1.0.0-beta.8",
+        "react-dom": "^16.8.6",
+        "react-icons": "^3.7.0",
+        "react-push-menu": "^1.0.2",
+        "react-router": "^5.0.0",
+        "react-router-dom": "^5.0.0",
+        "react-scripts": "^0.9.5",
+        "reactstrap": "^8.0.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    },
+    "proxy": "http://localhost:3001"
 }
